@@ -3,6 +3,7 @@ package Bomberman.entities.character.enemy;
 import Bomberman.Board;
 import Bomberman.Game;
 import Bomberman.entities.character.enemy.AI.AILow;
+import Bomberman.entities.character.enemy.AI.AIRandom;
 import Bomberman.graphics.Sprite;
 
 public class Balloon extends Enemy

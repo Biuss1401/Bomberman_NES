@@ -8,7 +8,7 @@ import Bomberman.entities.character.Bomber;
 import Bomberman.entities.character.enemy.Enemy;
 
 /**
- * tìm đến bomber dựa trên khoảng cách , chưa đủ thông minh để tránh bom
+ * tìm đến bomber dựa trên khoảng cách
  */
 public class AIMedium extends AI
 {
@@ -278,12 +278,12 @@ public class AIMedium extends AI
         }
 
         // trường hợp không có đường đi hợp lý
-        // thì sẽ cho ramdo bừa
+        // thì sẽ cho ramdom
         if (way.size() == 0)
         {
             return random.nextInt(4);
         }
-        // tồn tạ đường duy nhất
+        // tồn tại đường duy nhất
         if (way.size() == 1)
         {
             return way.get(0);

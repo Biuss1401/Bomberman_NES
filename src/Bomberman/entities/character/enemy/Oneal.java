@@ -10,6 +10,7 @@ import java.util.Random;
 import Bomberman.Board;
 import Bomberman.Game;
 import Bomberman.entities.character.enemy.AI.AIAdvance;
+import Bomberman.entities.character.enemy.AI.AIRandom;
 import Bomberman.graphics.Sprite;
 
 public class Oneal extends Enemy
